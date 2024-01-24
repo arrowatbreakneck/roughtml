@@ -22,7 +22,7 @@ body{
     flex-flow: column;
     align-items: center;
     justify-items: center;
-    background-image:url('https://cdn.wallpapersafari.com/29/69/QucGLr.jpg');
+    background-image:url('https://i.pinimg.com/originals/e4/7e/02/e47e025f47630b59ec87217bfa0a9e90.jpg');
     background-size: cover;
 }
 button{
@@ -34,4 +34,20 @@ img{
     width: 10%;
     margin-right: 10px;
     margin-bottom: 10px;
+}
+
+@media screen and (min-width:500px) {
+
+    body{
+        background-image:url('https://cdn.wallpapersafari.com/29/69/QucGLr.jpg');
+    }
+    
+}
+ 
+@media screen and (min-width:750px) {
+
+    body{
+        background-image:url('https://cdn.wallpapersafari.com/29/69/QucGLr.jpg');
+    }
+    
 }
